@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 1345px;
+    height: 650px;
+    border: 1px solid blue;
+    margin: 0 auto;
+    background-image: url('toprasm.png'),url('rasm3.png'),url('rasm1.png'),url('rasn2.png'),url('hall.jpg');
+    background-repeat: no-repeat;
+    background-size: 28px 28px,300px 320px,220px 220px,220px 200px,1345px 800px;
+    background-position: 275px 155px ,350px 320px,200px 70px ,780px 350px,100%;
+    animation-name: oldinga;
+    animation-duration: 20s;
+}
+@keyframes oldinga {
+    0%{
+        background-position: 275px 155px ,350px 320px,200px 70px ,780px 350px,100%;
+    }
+    5%{
+        background-position: 340px 250px ,450px 320px,280px 70px ,780px 350px,100%;
+    }
+    10%{
+        background-position: 418px 155px ,500px 320px,345px 70px ,780px 350px,100%;
+    }
+    15%{
+        background-position: 500px 250px ,550px 320px,345px 70px ,780px 350px,100%;
+    }
+    20%{
+        background-position: 600px 155px ,550px 320px,520px 70px ,780px 350px,100%;
+    }
+    25%{
+        background-position: 600px 155px ,550px 320px,520px 70px ,880px 350px,100%;
+    }
+    40%{
+        background-position: 780px 324px ,650px 300px,520px 70px ,880px 350px,100%;
+    }
+    45%{
+        background-position: 780px 324px ,650px 300px,520px 70px ,880px 300px,100%;
+    }
+    60%{
+        background-position: 970px 310px ,650px 300px,520px 70px ,880px 300px,100%;
+    }
+    65%{
+        background-position: 970px 310px ,650px 300px,550px 70px ,880px 300px,100%;
+    }
+    70%{
+        background-position: 1040px 310px ,650px 300px,600px 70px ,950px 300px,100%;
+    }
+    75%{
+        background-position: 1120px 250px ,650px 300px,650px 70px ,1030px 240px,100%;
+    }
+    80%{
+        background-position: 1190px 255px ,650px 300px,700px 70px ,1060px 240px,100%;
+    }
+    95%{
+        background-position: 1290px 490px ,650px 300px,800px 70px ,1060px 400px,100%;
+    }
+    100%{
+        background-position: 1290px 490px ,650px 300px,800px 70px ,1060px 400px,100%;
+    }
+    
+}
+
+
+
+.ohiri{
+    width: 300px;
+    height: 50px;
+    font-size: 0px;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 200px;
+    animation-name: a;
+    animation-duration: 5s;
+    animation-delay: 17s;
+}
+@keyframes a{
+    0%{
+        font-size: 0px;
+    }
+    100%{
+        font-size: 30px;
+        background-color: aqua;
+        color: forestgreen;
+    }
+}
+.natija{
+    width: 300px;
+    height: 50px;
+    font-size: 0px;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 10px;
+    animation-name: b;
+    animation-duration: 5s;
+    animation-delay: 17s;
+    
+}
+@keyframes b{
+    0%{
+        font-size: 0px;
+    }
+    100%{
+        font-size: 30px;
+        background-color: rgb(225, 0, 255);
+        color: rgb(250, 8, 8);
+    }
+}
